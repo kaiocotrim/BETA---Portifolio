@@ -15,6 +15,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+.flex{
+    display: flex;
+}
+
 body{
     background-image: linear-gradient(to bottom, #25252e, #3f4352);
     height: 100vh;
@@ -57,8 +61,8 @@ a {
 
 a:hover{
     color: white;
-    transform: scale(1.02);
-    transition: 0.2s;
+   
+    transition: 0.5s;
 }
 
 header nav ul {
@@ -92,5 +96,38 @@ img{
     border-radius: 50%;
     width: 25vh;
     height: 25vh;
-    border: 2px white;
+    border: 2px solid white;
 }
+
+img:hover{
+    border: 1px solid rgb(122, 122, 122);
+    transition: 0.5s;
+    box-shadow: 1px 1px 9px gray;
+
+}
+/* ESTILO DO TOPO DO SITE */ 
+
+section.topo-do-site {
+    padding: 100px 4%; 
+}    
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.topo-do-site h1{
+    color: rgb(196, 195, 195);
+    font-size: 3em;
+}
+
+
+.topo-do-site p {
+    margin: 20px 0;
+}
+strong{
+    color: gray;
+}
+
