@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* CODIGO DA FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/* ESTILO GERAL */ 
+
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #25252e, #3f4352);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇALHO */ 
+
+header .logo a{ 
+    font-size: 1.8em;
+    color: #ffffff;
+    font-weight: 100;
+}
+header .logo a:hover{ 
+    color: gray;
+}
+
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+a {
+    display: inline-block;
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 100;
+    background-color:   rgb(112, 112, 112);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+header .btn-contato button:hover{
+    background-color: #25252e00;
+    transition: 0.8s;
+    border: 1px solid white;
+}
+
+img{
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    border: 2px white;
+}
