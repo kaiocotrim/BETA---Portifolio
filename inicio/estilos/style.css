@@ -19,14 +19,30 @@
     display: flex;
 }
 
+.id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 body{
     background-image: linear-gradient(to bottom, #25252e, #3f4352);
     height: 100vh;
+    background-size: cover; /* Isso vai garantir que a imagem cubra toda a área */
+    background-attachment: fixed; /* Para garantir que o fundo não se mova */
 }
 
 .interface{
     max-width: 1280px;
     margin: 0 auto;
+    margin-bottom: 8%
+}
+
+h2.titulo{
+    color: #C4C3C3;
+    font-size: 39px;
+    text-align: center;
 }
 
 /* ESTILO DO CABEÇALHO */ 
@@ -131,3 +147,39 @@ strong{
     color: gray;
 }
 
+
+/* ESTILOS ESPECIAIS */
+
+.id{
+    margin-top: 6%;
+}
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .id{
+    gap: 100px;
+}
+
+.especialidades .especialidades-box{
+    padding: 80px;
+    margin-top: -100px;
+
+}
+
+
+.especialidades .especialidades-box i{
+    font-size: 58px;
+    color: rgb(196, 195, 195);
+    padding: 10px;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0px;
+}
+
+.especialidades-box p {
+    margin-bottom: 25px;
+}
