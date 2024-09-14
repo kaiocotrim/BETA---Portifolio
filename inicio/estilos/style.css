@@ -183,3 +183,71 @@ section.especialidades .id{
 .especialidades-box p {
     margin-bottom: 25px;
 }
+
+@media screen and (max-width: 990px){
+
+    /* ESTILOS ESPECIAIS */
+
+    section.especialidades{
+        padding: 40px 4%;
+    }
+
+    .especialidades .especialidades-box{
+        padding: 0px;
+        margin-top: -100px;
+
+    }
+    
+    
+    /* TOPO DO SITE */
+
+    .topo-do-site p {
+        margin: 50px 0;
+    }
+
+    .topo-do-site h1{
+        font-size: 2em;
+    }
+
+    section.topo-do-site {
+        padding: 20px 4%; 
+    }   
+
+    h2.titulo{
+        margin-top: -50px;
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 50px;
+        background-color: #3f4352;
+        border-radius: 50px 0px;
+        padding: 10px;
+    }
+
+    /* CLASSE GERAL */ 
+    
+    .flex{
+        flex-direction: column-reverse;
+    }
+
+    .img-topo{
+        padding: 50px;
+    }
+    
+    .especialidades-box p{
+        padding: 10px;
+    }
+
+
+
+    /* CABECALHO */ 
+    .menu-desktop{
+        display: none;
+    }
+
+    .btn-contato{
+        display: none;
+    }
+
+
+    
+}
